@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Add popup css file -->
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>
+      <span class="geminiStar">&#9733;</span>
+      <span class="geminiTitle">Gemini</span>
+      <span class="geminiTitle2">Debugger</span>
+      <span class="geminiStar">&#9733;</span>
+    </h1>
+    <div class="buttons">
+      <button id="highlightMessage">Highlight Messages</button>
+    </div>
+    <div class="container">
+      <h2>SDK Info</h2>
+      <div class="infoContainer">
+        <div class="key">PayPal Debug ID:</div>
+        <div class="value" id="paypalDebugIdSdk"></div>
+      </div>
+      <div class="infoContainer">
+        <div class="key">X-Cache:</div>
+        <div class="value" id="xCacheSdk"></div>
+      </div>
+      <div class="infoContainer">
+        <div class="key">X-Cache-Hits:</div>
+        <div class="value" id="xCacheHitsSdk"></div>
+      </div>
+    </div>
+
+    <div id="messages"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

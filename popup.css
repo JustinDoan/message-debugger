@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+.iframeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+  min-width: 500px;
+}
+#sdkMeta {
+  height: 110px;
+  width: 350px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.geminiTitle {
+  color: #00457c;
+}
+.geminiTitle2 {
+  color: #0079c1;
+}
+.geminiStar {
+  color: #ffd700;
+}
+.buttons {
+  width: 100%;
+  padding-bottom: 5px;
+}
+#highlightMessage {
+  border: 2px #0079c1 solid;
+  border-radius: 0px;
+  background-color: #0079c1;
+  color: white;
+  cursor: pointer;
+}
+
+#highlightMessage:hover {
+  border-color: #00457c;
+  background-color: #00457c;
+}
